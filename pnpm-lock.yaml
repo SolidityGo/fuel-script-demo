@@ -8,21 +8,12 @@ importers:
 
   .:
     dependencies:
-      '@fuel-ts/hasher':
-        specifier: ^0.94.1
-        version: 0.94.1
       '@types/node':
         specifier: ^22.5.0
         version: 22.5.0
-      dotenv:
-        specifier: ^16.4.5
-        version: 16.4.5
       fuels:
         specifier: ^0.94.1
         version: 0.94.1
-      prettier:
-        specifier: ^3.3.3
-        version: 3.3.3
 
 packages:
 
@@ -367,10 +358,6 @@ packages:
     resolution: {integrity: sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==}
     engines: {node: '>=0.4.0'}
 
-  dotenv@16.4.5:
-    resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
-    engines: {node: '>=12'}
-
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
@@ -558,11 +545,6 @@ packages:
   portfinder@1.0.32:
     resolution: {integrity: sha512-on2ZJVVDXRADWE6jnQaX0ioEylzgBpQk8r55NE4wjXW1ZxO+BgDlY6DXwj20i0V8eB4SenDQ00WEaxfiIQPcxg==}
     engines: {node: '>= 0.12.0'}
-
-  prettier@3.3.3:
-    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
-    engines: {node: '>=14'}
-    hasBin: true
 
   property-expr@2.0.6:
     resolution: {integrity: sha512-SVtmxhRE/CGkn3eZY1T6pC8Nln6Fr/lu1mKSgRud0eC73whjGfoAogbn78LkD8aFL0zz3bAFerKSnOl7NlErBA==}
@@ -1038,8 +1020,6 @@ snapshots:
 
   delayed-stream@1.0.0: {}
 
-  dotenv@16.4.5: {}
-
   eastasianwidth@0.2.0: {}
 
   emoji-regex@8.0.0: {}
@@ -1253,8 +1233,6 @@ snapshots:
       mkdirp: 0.5.6
     transitivePeerDependencies:
       - supports-color
-
-  prettier@3.3.3: {}
 
   property-expr@2.0.6: {}
 

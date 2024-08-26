@@ -1,9 +1,6 @@
 script;
 
 abi Test {
-    #[storage(read, write)]
-    fn add_liquidity(a: AssetId, b: AssetId) -> u64;
-
     #[payable]
     #[storage(read, write)]
     fn deposit();

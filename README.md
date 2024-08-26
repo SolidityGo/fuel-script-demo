@@ -3,5 +3,6 @@
 npm i ts-node -g
 pnpm i
 forc build
-ts-node scripts/main.ts
+ts-node scripts/contract-demo.ts
+ts-node scripts/script-demo.ts
 ```
