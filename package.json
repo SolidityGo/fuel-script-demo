@@ -1,0 +1,14 @@
+{
+	"scripts": {
+		"lint:check": "npx prettier -c contracts/**",
+		"lint": "npx prettier --write ./scripts/**/*.ts",
+		"types": "forc build --release && pnpm fuels typegen -i ./demo-script/out/release/**-abi.json -o ./script-types --script"
+	},
+	"dependencies": {
+		"@fuel-ts/hasher": "^0.94.1",
+		"@types/node": "^22.5.0",
+		"dotenv": "^16.4.5",
+		"fuels": "^0.94.1",
+		"prettier": "^3.3.3"
+	}
+}
